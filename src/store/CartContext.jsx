@@ -73,7 +73,7 @@ export function CartContextProvider({ children }) {
         addItem,
         removeItem
     }
-
+    
     return <CartContext.Provider value={cartContext}>
         {children}
     </CartContext.Provider>
